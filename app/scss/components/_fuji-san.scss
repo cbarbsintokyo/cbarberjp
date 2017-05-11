@@ -1,0 +1,17 @@
+.fuji-san {
+  margin: 0 auto;
+  max-width: 850px;
+  width: 100%;
+}
+
+.fuji-san__image {
+  background: url(../images/fuji.svg) center bottom no-repeat;
+  background-size: cover;
+  height: 0;
+  padding-bottom: percentage(280/850);
+  width: 100%;
+
+  @include breakpoint($medium) {
+    padding-bottom: percentage(225/850);
+  }
+}

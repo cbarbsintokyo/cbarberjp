@@ -1,0 +1,29 @@
+html {
+  font-size: 16px;
+  height: 100%;
+
+  // @include breakpoint($medium) {
+  //   font-size: 16px;
+  // }
+}
+
+body {
+  @include flexbox();
+  @include flex-direction(column);
+  @include font-smoothing();
+  background: $background;
+  color: $text-color;
+  font-family: 'dual300';
+  font-weight: 100;
+  min-height: 100%;
+
+  @include breakpoint($long) {
+    height: 100%;
+  }
+}
+
+main {
+  @include flex-grow(1);
+  @include flexbox();
+  @include align-items(center);
+}

@@ -1,0 +1,43 @@
+// Dual 300 Font.
+.dual-heading {
+  font-family: 'dual300';
+  font-weight: $heading-weight;
+  letter-spacing: .3em;
+  text-transform: uppercase;
+}
+
+.dual-heading--large {
+  font-size: 2.1875rem;
+}
+
+// Lazer 84 Font.
+.lazer-heading {
+  font-family: 'lazer84regular';
+  font-weight: $heading-weight;
+  letter-spacing: .2em;
+}
+
+.lazer-heading--large {
+  font-size: 1.75rem;
+}
+
+
+// Main page heading.
+.main-heading {
+  margin-bottom: 1em;
+}
+
+.main-heading__text {
+  display: block;
+}
+
+.main-heading__text--name {
+  color: $text-color;
+  font-size: 1.8rem;
+}
+
+.main-heading__text--position {
+  color: $secondary-color;
+  font-size: 1.2rem;
+  margin-top: .5em;
+}

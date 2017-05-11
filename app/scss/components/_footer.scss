@@ -1,0 +1,23 @@
+.footer {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.footer__inner-container {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+}
+
+.footer__image {
+  height: 1.28em;
+  width: 1.28em;
+}
+
+.footer__text {
+  @include font-smoothing();
+  color: $text-color;
+  font-size: .75rem;
+  margin-bottom: 0;
+}

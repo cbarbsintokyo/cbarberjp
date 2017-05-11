@@ -1,0 +1,10 @@
+.content-container {
+  margin: 0 auto;
+  max-width: $site-width;
+  padding: 1em;
+  width: 100%;
+
+  @include breakpoint($medium) {
+    padding: 1.5em;
+  }
+}

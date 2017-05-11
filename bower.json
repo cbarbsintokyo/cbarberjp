@@ -1,0 +1,25 @@
+{
+  "name": "cbarber.jp",
+  "description": "Portfolio site for.....me!",
+  "main": "gulpfile.js",
+  "authors": [
+    "Craig Barber"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "site"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "breakpoint-sass": "^2.7.1",
+    "normalize-scss": "normalize.scss#^6.0.0"
+  }
+}
